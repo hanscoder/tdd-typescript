@@ -1,0 +1,18 @@
+{
+  "name": "tdd-typescript",
+  "description": "Can be used to practice tdd using typescript.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hans Sowa",
+    "email": "hanssowa@gmail.com",
+    "url": "http://www.givval.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanscoder/tdd-typescript.git",
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "1.7.5"
+  }
+}

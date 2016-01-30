@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "moduleResolution": "node",
+    "target": "es5",
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "build"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

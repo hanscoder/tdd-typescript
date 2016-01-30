@@ -11,5 +11,15 @@
     "type": "git",
     "url": "https://github.com/hanscoder/tdd-typescript.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "systemjs": "0.19.17"
+  },
+  "devDependencies": {
+    "es6-module-loader": "0.17.10",
+    "jasmine-core": "2.4.1",
+    "karma": "0.13.19",
+    "karma-jasmine": "0.1.6",
+    "karma-systemjs": "0.10.0"
+  }
 }

@@ -8,7 +8,9 @@ module.exports = function(config) {
 
         files: [
             'build/**/*.js'
-        ]
+        ],
+
+        browsers: ['PhantomJS']
 
     });
 };

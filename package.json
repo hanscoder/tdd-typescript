@@ -26,5 +26,8 @@
     "phantomjs-polyfill": "0.0.1",
     "karma-chrome-launcher": "0.2.2",
     "karma-sourcemap-loader": "0.3.7"
+  },
+  "scripts": {
+    "postinstall": "tsd install"
   }
 }

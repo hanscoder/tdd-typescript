@@ -1,5 +1,10 @@
-### Test Driven Development (TDD) for Typescript
+# Test Driven Development (TDD) for Typescript
+**Can be used for practicing TDD using Typescript.**
 
-Can be used for practicing TDD using Typescript.
+## Getting Started
++ First of all install all required dependencies:
+```
+    npm install
+```
 
-Known problem: Debugging Typescript within Webstorm is not working.
+> [] Debugging Typescript within Webstorm is not working!

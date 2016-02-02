@@ -7,4 +7,4 @@
     npm install
 ```
 
-> [] Debugging Typescript within Webstorm is not working!
+> Debugging Typescript within Webstorm is not working!

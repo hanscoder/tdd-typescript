@@ -12,15 +12,15 @@ module.exports = function(config) {
 
         files: [
             'build/**/*.js',
-            {pattern: "build/**/*.js.map", served: true, included: false, watched: false},
-            {pattern: "src/**/*.ts", served: true, included: false, watched: false}
+            {pattern: "build/**/*.js.map", served: true, included: false, watched: false, nocache: true},
+            {pattern: "src/**/*.ts", served: true, included: false, watched: false, nocache: true}
         ],
 
         preprocessors: {
             'build/**/*.js': ['sourcemap']
         },
 
-        logLevel: 'config.LOG_DEBUG',
+        logLevel: 'config.LOG_INFO',
 
         browsers: ['PhantomJS']
 

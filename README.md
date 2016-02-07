@@ -14,9 +14,9 @@
 
 At the end you will see a failing test:
 ```
-    PhantomJS 2.1.1 (Linux 0.0.0) Sut should be behaved FAILED
-            Expected undefined to be 'behaved'.
-    PhantomJS 2.1.1 (Linux 0.0.0): Executed 1 of 1 (1 FAILED) ERROR (0.037 secs / 0.001 secs)
+PhantomJS 2.1.1 (Linux 0.0.0) Sut should be behaved FAILED
+    Expected undefined to be 'behaved'.
+PhantomJS 2.1.1 (Linux 0.0.0): Executed 1 of 1 (1 FAILED) ERROR (0.037 secs / 0.001 secs)
 ```
 
 + Solve the failing test and watch how the code is transpiled automatically and the test is run again:
@@ -35,3 +35,7 @@ At the end you will see a failing test:
 07 02 2016 17:56:02.125:DEBUG [web-server]: serving (cached): /home/hanscoder/WebstormProjects/tdd-typescript/build/test/unit/sut.spec.js
 PhantomJS 2.1.1 (Linux 0.0.0): Executed 1 of 1 SUCCESS (0.038 secs / 0.002 secs)
 ```
+
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
